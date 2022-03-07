@@ -8,11 +8,20 @@ spec:
 
   fetch:
   - git:
-      url: https://github.com/tfynes-pivotal/accelerators-list
+      url: https://github.com/jmconelogin/spring-sql-jpa-cvs
+      ref: features/aetnaJava
+  - git:
+      url: https://github.com/jmconelogin/spring-sql-jpa-cvs
       ref: origin/main
-
-      subPath: accelerators
-
+  - git:
+      url: https://github.com/jmconelogin/asp-net-core-sql-accelerator
+      ref: origin/main
+  - git:
+      url: https://github.com/jmconelogin/node-express-cvs
+      ref: origin/main
+  - git:
+      url: https://github.com/jmconelogin/python-functions-cvs
+      ref: origin/main
   template:
   - ytt: {}
   deploy: 
